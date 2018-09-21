@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E1B2EFE8-EAD4-4644-B1BE-C1200DA4A3F3}" SchemaVersion="85">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{E1B2EFE8-EAD4-4644-B1BE-C1200DA4A3F3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Resonance_Audio_Room_Effects" ID="{49FCAD6A-6292-4E55-A416-D7085EED224A}" PluginName="Resonance Audio Room Effects" CompanyID="272" PluginID="200" PluginType="6"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

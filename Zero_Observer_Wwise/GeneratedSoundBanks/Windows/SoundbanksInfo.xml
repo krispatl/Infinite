@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>D:\Repositories\Zero_Observer\Zero_Observer_Wwise\</ProjectRoot>
+		<SourceFilesRoot>D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Repositories\Zero_Observer\Zero_Observer_Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Repositories\Zero_Observer\Zero_Observer_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4056684167" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3325308199" Name="Play_AmbientBed_AirConditioning" ObjectPath="\Events\Default Work Unit\Play_AmbientBed_AirConditioning" MaxAttenuation="100.000000"/>
+				<Event Id="574589902" Name="Play_AmbientBed_FactoryHum" ObjectPath="\Events\Default Work Unit\Play_AmbientBed_FactoryHum" MaxAttenuation="100.000000"/>
+				<Event Id="3292131775" Name="Play_Dyna_Soundbite1" ObjectPath="\Events\Default Work Unit\Play_Dyna_Soundbite1" MaxAttenuation="100.000000"/>
+				<Event Id="3292131772" Name="Play_Dyna_Soundbite2" ObjectPath="\Events\Default Work Unit\Play_Dyna_Soundbite2" MaxAttenuation="100.000000"/>
+				<Event Id="3292131773" Name="Play_Dyna_Soundbite3" ObjectPath="\Events\Default Work Unit\Play_Dyna_Soundbite3" MaxAttenuation="100.000000"/>
+				<Event Id="3292131770" Name="Play_Dyna_Soundbite4" ObjectPath="\Events\Default Work Unit\Play_Dyna_Soundbite4" MaxAttenuation="100.000000"/>
+				<Event Id="3292131771" Name="Play_Dyna_Soundbite5" ObjectPath="\Events\Default Work Unit\Play_Dyna_Soundbite5" MaxAttenuation="100.000000"/>
+				<Event Id="3292131768" Name="Play_Dyna_Soundbite6" ObjectPath="\Events\Default Work Unit\Play_Dyna_Soundbite6" MaxAttenuation="100.000000"/>
+				<Event Id="3292131769" Name="Play_Dyna_Soundbite7" ObjectPath="\Events\Default Work Unit\Play_Dyna_Soundbite7" MaxAttenuation="100.000000"/>
+				<Event Id="1073863835" Name="Play_Object_01" ObjectPath="\Events\Default Work Unit\Play_Object_01" MaxAttenuation="100.000000"/>
+				<Event Id="1073863832" Name="Play_Object_02" ObjectPath="\Events\Default Work Unit\Play_Object_02" MaxAttenuation="100.000000"/>
+				<Event Id="1073863833" Name="Play_Object_03" ObjectPath="\Events\Default Work Unit\Play_Object_03" MaxAttenuation="100.000000"/>
+				<Event Id="1073863838" Name="Play_Object_04" ObjectPath="\Events\Default Work Unit\Play_Object_04" MaxAttenuation="100.000000"/>
+				<Event Id="4057298857" Name="Play_WalkingStick" ObjectPath="\Events\Default Work Unit\Play_WalkingStick" MaxAttenuation="100.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="235657" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite1_Neutral_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite1_Neutral_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="2362352" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite4_Close_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite4_Close_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="93396510" Language="SFX">
+					<ShortName>WOODEN SWORD HIT-11.M.wav</ShortName>
+					<Path>SFX\WOODEN SWORD HIT-11.M_ACD97673.wem</Path>
+				</File>
+				<File Id="146281465" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite3_Far_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite3_Far_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="201706537" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite3_Neutral_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite3_Neutral_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="291143476" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite6_Far_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite6_Far_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="303818130" Language="SFX">
+					<ShortName>ProofAssets_v1\AmbientBed_FactoryHum.wav</ShortName>
+					<Path>SFX\ProofAssets_v1\AmbientBed_FactoryHum_C8428613.wem</Path>
+				</File>
+				<File Id="325011857" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite7_Close_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite7_Close_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="335520792" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite5_Close_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite5_Close_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="341635616" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite2_Neutral_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite2_Neutral_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="403280480" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite1_Close_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite1_Close_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="429410613" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite7_Neutral_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite7_Neutral_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="449549849" Language="SFX">
+					<ShortName>ProofAssets_v1\Object1_LoopLayer3.wav</ShortName>
+					<Path>SFX\ProofAssets_v1\Object1_LoopLayer3_C8428613.wem</Path>
+				</File>
+				<File Id="453332767" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite3_Close_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite3_Close_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="495659582" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite1_Far_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite1_Far_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="527146279" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite5_Neutral_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite5_Neutral_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="549603998" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite5_Far_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite5_Far_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="554731724" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite7_Far_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite7_Far_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="633188166" Language="SFX">
+					<ShortName>WalkingStick_Hit_OtherLayer.wav</ShortName>
+					<Path>SFX\WalkingStick_Hit_OtherLayer_C652C925.wem</Path>
+				</File>
+				<File Id="645339915" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite2_Far_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite2_Far_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="681190026" Language="SFX">
+					<ShortName>ProofAssets_v1\Object4_MetalBangingLoop.wav</ShortName>
+					<Path>SFX\ProofAssets_v1\Object4_MetalBangingLoop_C8428613.wem</Path>
+				</File>
+				<File Id="783473712" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite4_Far_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite4_Far_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="802218886" Language="SFX">
+					<ShortName>ProofAssets_v1\AmbientBed_AirConditioning.wav</ShortName>
+					<Path>SFX\ProofAssets_v1\AmbientBed_AirConditioning_C8428613.wem</Path>
+				</File>
+				<File Id="805698475" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite6_Neutral_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite6_Neutral_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="818496746" Language="SFX">
+					<ShortName>ProofAssets_v1\Object1_LoopLayer1.wav</ShortName>
+					<Path>SFX\ProofAssets_v1\Object1_LoopLayer1_C8428613.wem</Path>
+				</File>
+				<File Id="823052794" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite6_Close_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite6_Close_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="841124009" Language="SFX">
+					<ShortName>WalkingStick_Hit_Cane.wav</ShortName>
+					<Path>SFX\WalkingStick_Hit_Cane_C652C925.wem</Path>
+				</File>
+				<File Id="881702233" Language="SFX">
+					<ShortName>ProofAssets_v1\Object1_LoopLayer2.wav</ShortName>
+					<Path>SFX\ProofAssets_v1\Object1_LoopLayer2_C8428613.wem</Path>
+				</File>
+				<File Id="935345086" Language="SFX">
+					<ShortName>ProofAssets_v1\Object3_FactoryTireLoop.wav</ShortName>
+					<Path>SFX\ProofAssets_v1\Object3_FactoryTireLoop_C8428613.wem</Path>
+				</File>
+				<File Id="938767864" Language="SFX">
+					<ShortName>ProofAssets_v1\Object2_FactorySteamLoop.wav</ShortName>
+					<Path>SFX\ProofAssets_v1\Object2_FactorySteamLoop_C8428613.wem</Path>
+				</File>
+				<File Id="1041227047" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite4_Neutral_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite4_Neutral_RAW_C8428613.wem</Path>
+				</File>
+				<File Id="1052670190" Language="SFX">
+					<ShortName>Dyna_Soundbites\Dyna_Soundbite2_Close_RAW.wav</ShortName>
+					<Path>SFX\Dyna_Soundbites\Dyna_Soundbite2_Close_RAW_C8428613.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

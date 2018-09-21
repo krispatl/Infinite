@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="DialogCloseness" ID="{FD15FD21-33FB-409E-8D12-54019CA2E89C}">
+					<ChildrenList>
+						<Switch Name="Close" ID="{6DBC13D1-FBC1-4E8D-A37A-7736D5C822AA}"/>
+						<Switch Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}"/>
+						<Switch Name="Far" ID="{AE0ABAB7-6AEC-4F84-80A4-29249F92BD29}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -1,0 +1,2152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Renders" ID="{E9281A6E-D210-4337-A60E-314589824FDC}" ShortID="162926784">
+					<ChildrenList>
+						<Sound Name="FactoryWheelIdle_Loop" ID="{0FC445D8-EB32-4476-8758-CBFC29B4D74D}" ShortID="822843406">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FactoryWheelIdle_Loop" ID="{3A6C6AC1-E25F-44C0-9A8E-3D85ED8D7C57}" ShortID="94634955">
+									<Language>SFX</Language>
+									<AudioFile>Renders\FactoryWheelIdle_Loop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FactoryWheelIdle_Loop" ID="{3A6C6AC1-E25F-44C0-9A8E-3D85ED8D7C57}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<BlendContainer Name="ConveyorBelt" ID="{2976F095-E10E-465E-835D-D6EFE8CB03BF}" ShortID="1011213780">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ConveyorBelt_LowLoop" ID="{31D11B4D-E11F-4CC2-A63A-13904F0E6D06}" ShortID="301546258">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ConveyorBelt_LowLoop" ID="{E4766D28-C923-4EDD-AC55-08CE22F9BC2F}" ShortID="553336462">
+											<Language>SFX</Language>
+											<AudioFile>Renders\ConveyorBelt_LowLoop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ConveyorBelt_LowLoop" ID="{E4766D28-C923-4EDD-AC55-08CE22F9BC2F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ConveyorBeltClack_HighLoop" ID="{A9594EEB-2B35-49E6-B534-D475D9F62CFF}" ShortID="925974866">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ConveyorBeltClack_HighLoop" ID="{9FABC30D-A0FA-4F5F-A726-E1E35FEEA242}" ShortID="1011285311">
+											<Language>SFX</Language>
+											<AudioFile>Renders\ConveyorBeltClack_HighLoop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ConveyorBeltClack_HighLoop" ID="{9FABC30D-A0FA-4F5F-A726-E1E35FEEA242}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ConveyorBeltNoFX_LowLoop" ID="{BD72A4DF-E63B-49AF-B0E7-83C0683A986B}" ShortID="972108825">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ConveyorBeltNoFX_LowLoop" ID="{87E01C18-5E4D-40F8-B054-408E8C45376B}" ShortID="198512270">
+											<Language>SFX</Language>
+											<AudioFile>Renders\ConveyorBeltNoFX_LowLoop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ConveyorBeltNoFX_LowLoop" ID="{87E01C18-5E4D-40F8-B054-408E8C45376B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<RandomSequenceContainer Name="FactoryRachet" ID="{FE8606C6-73C3-41D1-AB5A-7C747902A1C8}" ShortID="203487209">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{04A0D579-605A-48A3-A4BE-79DE5B4E7B28}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="6"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D2387687-2F59-4A60-9364-3A52788424EC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FactoryRatchet_00" ID="{CE797786-6F8E-41E9-B30A-D50F361243E8}" ShortID="734396493">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryRatchet_00" ID="{50B4524F-EA01-4746-86AE-98E94A1D9DB6}" ShortID="646110787">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryRatchet_00.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryRatchet_00" ID="{50B4524F-EA01-4746-86AE-98E94A1D9DB6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryRatchet_01" ID="{F3071407-A1EE-4DFE-A274-77854FE7D7E8}" ShortID="352353488">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryRatchet_01" ID="{2D660B8A-3EFB-4C08-A94C-14586558BCB6}" ShortID="288067051">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryRatchet_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryRatchet_01" ID="{2D660B8A-3EFB-4C08-A94C-14586558BCB6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryRatchet_02" ID="{29D984BC-F7F7-4368-9D04-C850171DD457}" ShortID="461933217">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryRatchet_02" ID="{F0D89B04-8260-4076-BD56-AAF16CCDBDF6}" ShortID="189558739">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryRatchet_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryRatchet_02" ID="{F0D89B04-8260-4076-BD56-AAF16CCDBDF6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryRatchet_03" ID="{233F78D2-3F68-41DE-AD27-028608F664C8}" ShortID="39004962">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryRatchet_03" ID="{B826F783-EE81-44E7-BDAC-666C3A8DE5BD}" ShortID="559465797">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryRatchet_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryRatchet_03" ID="{B826F783-EE81-44E7-BDAC-666C3A8DE5BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryRatchet_04" ID="{3F016880-3348-4D58-9D68-7C473271E58B}" ShortID="1040210081">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryRatchet_04" ID="{3EAA4DCB-1019-4CE2-A69D-284C9650FC9B}" ShortID="758790168">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryRatchet_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryRatchet_04" ID="{3EAA4DCB-1019-4CE2-A69D-284C9650FC9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FactoryWheelCut" ID="{19F4AD30-173C-4B83-9531-E4CAFB672743}" ShortID="957442958">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BC7B5C3A-A963-4A52-A61B-89AB355D5714}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{674F6E2A-FD34-4822-A4F4-6402592A1054}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FactoryWheelCut_00" ID="{217BF7F2-9D01-431F-9499-4D5692BE4807}" ShortID="920907243">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryWheelCut_00" ID="{BF5BA20D-2632-45D0-A673-6BD33FCEAEE3}" ShortID="347422729">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryWheelCut_00.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryWheelCut_00" ID="{BF5BA20D-2632-45D0-A673-6BD33FCEAEE3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryWheelCut_01" ID="{05D84FE9-6E3E-4688-8203-6367D7FD1BC2}" ShortID="797188581">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryWheelCut_01" ID="{E02272DF-CFCD-42D9-A8BB-382638AC905F}" ShortID="634294387">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryWheelCut_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryWheelCut_01" ID="{E02272DF-CFCD-42D9-A8BB-382638AC905F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryWheelCut_02" ID="{81B8C5FF-1174-49CE-A51C-ED5C7DC59740}" ShortID="529671814">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryWheelCut_02" ID="{A5D0F570-A2C3-492B-AC37-5D64372BACF8}" ShortID="455183376">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryWheelCut_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryWheelCut_02" ID="{A5D0F570-A2C3-492B-AC37-5D64372BACF8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryWheelCut_03" ID="{E9FB95A9-ACD9-40F3-85E8-58BC738EE9DC}" ShortID="769859712">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryWheelCut_03" ID="{9AF5B7C7-7A80-4497-AC6D-0D018569AD5A}" ShortID="559439386">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryWheelCut_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryWheelCut_03" ID="{9AF5B7C7-7A80-4497-AC6D-0D018569AD5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryWheelCut_04" ID="{7A3BF4DE-6258-4321-99A1-A7AA4A0A8A23}" ShortID="332599468">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryWheelCut_04" ID="{DE033A96-A156-4179-BE7E-18E1F3166DD7}" ShortID="85570319">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryWheelCut_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryWheelCut_04" ID="{DE033A96-A156-4179-BE7E-18E1F3166DD7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryWheelCut_05" ID="{6A4B75E1-1CA8-4D02-8DB8-EC223C566E12}" ShortID="493591044">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryWheelCut_05" ID="{78386384-1626-4C67-98D6-13E1B96FCC0C}" ShortID="443931692">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryWheelCut_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryWheelCut_05" ID="{78386384-1626-4C67-98D6-13E1B96FCC0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryWheelCut_06" ID="{4BD5F702-C98C-4087-A90B-8FB6A71B6314}" ShortID="659219121">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryWheelCut_06" ID="{2B1FEFDA-B81C-475A-8886-FEC3214DE3BC}" ShortID="869099111">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryWheelCut_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryWheelCut_06" ID="{2B1FEFDA-B81C-475A-8886-FEC3214DE3BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FactoryWheelCut_07" ID="{699B3E92-DB39-461E-80B9-95FC23E6A5E3}" ShortID="665625475">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4927C0A0-DCC6-40E1-B6A7-D443C2A997C9}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8897AA9D-52B0-4DBF-8FA4-6BCE2EBF004A}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FactoryWheelCut_07" ID="{3A7A208E-4506-4D5A-81E3-42883C4B40CB}" ShortID="241549717">
+											<Language>SFX</Language>
+											<AudioFile>Renders\FactoryWheelCut_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FactoryWheelCut_07" ID="{3A7A208E-4506-4D5A-81E3-42883C4B40CB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ProofAssets_v1" ID="{9A0F983F-7883-48A6-B812-5C936FDFC5AA}" ShortID="374388008"/>
+				<BlendContainer Name="Object_01" ID="{4631861F-1AD6-48C0-8AC7-DDBC13B03E07}" ShortID="1006086652">
+					<PropertyList>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{EA227C35-0E14-40F9-8B64-80B8AE04FEB0}" ShortID="469750282" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Object1_LoopLayer1" ID="{8A3F59D8-A9A4-4CD8-B599-BF7088919D73}" ShortID="9244827">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Object1_LoopLayer1" ID="{1F67E5DB-0347-45C5-92BE-8613AAAB37F0}" ShortID="818496746">
+									<Language>SFX</Language>
+									<AudioFile>ProofAssets_v1\Object1_LoopLayer1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Object1_LoopLayer1" ID="{1F67E5DB-0347-45C5-92BE-8613AAAB37F0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Object1_LoopLayer2" ID="{F94FAA03-6C32-464A-BCBB-8FE0E28302A7}" ShortID="97894921">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Object1_LoopLayer2" ID="{93147621-2785-44D6-AA55-3943C856D772}" ShortID="881702233">
+									<Language>SFX</Language>
+									<AudioFile>ProofAssets_v1\Object1_LoopLayer2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Object1_LoopLayer2" ID="{93147621-2785-44D6-AA55-3943C856D772}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Object1_LoopLayer3" ID="{3B3A78E5-649B-4FF4-A9BA-5B5329A74806}" ShortID="94987667">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Object1_LoopLayer3" ID="{59D642FB-17B0-4765-BE2F-DF23BAF7432D}" ShortID="449549849">
+									<Language>SFX</Language>
+									<AudioFile>ProofAssets_v1\Object1_LoopLayer3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Object1_LoopLayer3" ID="{59D642FB-17B0-4765-BE2F-DF23BAF7432D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="Object_02" ID="{A1E41340-07B4-4C76-80A4-A142CE24D1E3}" ShortID="135223785">
+					<PropertyList>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{9B23BBC7-7B46-4F6F-B632-2A560323DCCE}" ShortID="2827701" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Object2_FactorySteamLoop" ID="{12A8C733-A186-423A-8103-366F3EF9C172}" ShortID="120556733">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Object2_FactorySteamLoop" ID="{7341D6D4-6C61-41C0-9794-2F9438B3A889}" ShortID="938767864">
+									<Language>SFX</Language>
+									<AudioFile>ProofAssets_v1\Object2_FactorySteamLoop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Object2_FactorySteamLoop" ID="{7341D6D4-6C61-41C0-9794-2F9438B3A889}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="Object_03" ID="{939D2ABD-67C3-48D9-AB0F-3889AFF6E6C4}" ShortID="105233944">
+					<PropertyList>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{8B4D7B4F-D2CB-412D-A073-7E13844CD063}" ShortID="505861249" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Object3_FactoryTireLoop" ID="{9EF4C01D-A77F-434C-ACE9-E4C202B69304}" ShortID="653049427">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Object3_FactoryTireLoop" ID="{F1DC060D-A21B-4405-8D18-0F1526BE172F}" ShortID="935345086">
+									<Language>SFX</Language>
+									<AudioFile>ProofAssets_v1\Object3_FactoryTireLoop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Object3_FactoryTireLoop" ID="{F1DC060D-A21B-4405-8D18-0F1526BE172F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="Object_04" ID="{0BCDC51E-CF91-41C3-81C8-774E3E41D852}" ShortID="571489757">
+					<PropertyList>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{442F53F0-C05A-4369-9B50-6B8E3FC8AF44}" ShortID="669532319" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Object4_MetalBangingLoop" ID="{6A594A07-1DB9-4321-A137-6E82FEDEF69F}" ShortID="723280408">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Object4_MetalBangingLoop" ID="{D0EB8377-A89C-4643-AB87-B95ACA05BC0B}" ShortID="681190026">
+									<Language>SFX</Language>
+									<AudioFile>ProofAssets_v1\Object4_MetalBangingLoop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Object4_MetalBangingLoop" ID="{D0EB8377-A89C-4643-AB87-B95ACA05BC0B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="WalkingStick" ID="{E3C3BF54-53BD-4682-9320-2A461D4DB80F}" ShortID="219093370">
+					<PropertyList>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="Highpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{508113EF-4644-412F-B543-7A73347D8330}" ShortID="519272632">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="StickIntensity" ID="{65C1EF6E-5EBF-4756-84F0-CDE87D6BBC32}" WorkUnitID="{C63BA0DC-0E4A-4D40-A305-CF5199AFF18C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2B52A1DA-9262-4051-8493-2FD262CE68A9}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>49</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>80</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{868FA457-98ED-4AC7-9A83-EB2D53DA5E3F}" ShortID="694776739">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="StickIntensity" ID="{65C1EF6E-5EBF-4756-84F0-CDE87D6BBC32}" WorkUnitID="{C63BA0DC-0E4A-4D40-A305-CF5199AFF18C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{28BAB665-DA8D-484A-832D-12C36A0EAD79}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>14</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>80</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{39E967CE-7BBD-4FA0-86E3-7ABB21006341}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+							<RTPCList>
+								<RTPC Name="" ID="{425D5212-AE8B-47EF-96DC-0C972C9FB88D}" ShortID="518698240">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="StickIntensity" ID="{65C1EF6E-5EBF-4756-84F0-CDE87D6BBC32}" WorkUnitID="{C63BA0DC-0E4A-4D40-A305-CF5199AFF18C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3574F91D-F3DC-427B-9EEA-A73E6580AE01}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-750</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>80</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2032E9C2-8CF9-4093-B693-DB5B9276D622}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+							<RTPCList>
+								<RTPC Name="" ID="{5BE4FFCF-20C1-4951-8DA7-55539D4365AB}" ShortID="492421638">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="StickIntensity" ID="{65C1EF6E-5EBF-4756-84F0-CDE87D6BBC32}" WorkUnitID="{C63BA0DC-0E4A-4D40-A305-CF5199AFF18C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F7D420EC-6D44-4171-ACCE-FD26B246CDB1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>80</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{A37AD0A5-68A0-4BA8-A8B1-FB85C268F99F}" ShortID="645953227" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WOODEN SWORD HIT-11_M" ID="{366579F4-8F4F-46EB-AC2F-46082D627872}" ShortID="906997260">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WOODEN SWORD HIT-11_M" ID="{7B178AD4-DE86-4810-BFA6-FC1975E17709}" ShortID="93396510">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="6.38864241348713E-03"/>
+										<Property Name="TrimBegin" Type="Real64" Value="6.62525879917184E-02"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>WOODEN SWORD HIT-11.M.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WOODEN SWORD HIT-11_M" ID="{7B178AD4-DE86-4810-BFA6-FC1975E17709}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WalkingStick_Hit" ID="{EFFD621A-C8D8-46AB-BF7B-782DAA71BC79}" ShortID="913906230">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WalkingStick_Hit" ID="{49CB4853-E3B8-49C7-8C93-FAE26CF34ABC}" ShortID="546042325">
+									<Language>SFX</Language>
+									<AudioFile>ProofAssets_v1\WalkingStick_Hit.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WalkingStick_Hit" ID="{49CB4853-E3B8-49C7-8C93-FAE26CF34ABC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WalkingStick_Hit_Cane" ID="{247FED32-5E69-4E0A-A55F-EFF94493DED0}" ShortID="902336380">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WalkingStick_Hit_Cane" ID="{F975BEBE-443A-4EF5-89FE-FA1222D56B72}" ShortID="841124009">
+									<Language>SFX</Language>
+									<AudioFile>WalkingStick_Hit_Cane.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WalkingStick_Hit_Cane" ID="{F975BEBE-443A-4EF5-89FE-FA1222D56B72}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WalkingStick_Hit_OtherLayer" ID="{D03B4EE2-34C8-44D8-A647-9F05F2330287}" ShortID="448509357">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>26</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-560</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{D62E7C68-6618-4A53-9A29-3F15EA73C204}" ShortID="370698411">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="StickIntensity" ID="{65C1EF6E-5EBF-4756-84F0-CDE87D6BBC32}" WorkUnitID="{C63BA0DC-0E4A-4D40-A305-CF5199AFF18C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AF7E6FB7-A0B5-4804-99A5-BDF769CB0979}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>80</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+									<ObjectRef Name="Fast_LF_Tremolo" ID="{3B09A271-D9D4-4A4E-B545-F681E8313E5F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WalkingStick_Hit_OtherLayer" ID="{2B6338D8-4B4D-40D6-A132-B57CA00D110E}" ShortID="633188166">
+									<Language>SFX</Language>
+									<AudioFile>WalkingStick_Hit_OtherLayer.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WalkingStick_Hit_OtherLayer" ID="{2B6338D8-4B4D-40D6-A132-B57CA00D110E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<Sound Name="AmbientBed_FactoryHum" ID="{E311476A-2E3B-4036-94A7-FC88E4A2749E}" ShortID="79377130">
+					<PropertyList>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-35</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{5B10816B-FDDE-4080-9D05-20F55EDC6621}" ShortID="185495447" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AmbientBed_FactoryHum" ID="{B3BEF69A-82B5-49A9-B8CD-2C0770480435}" ShortID="303818130">
+							<Language>SFX</Language>
+							<AudioFile>ProofAssets_v1\AmbientBed_FactoryHum.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AmbientBed_FactoryHum" ID="{B3BEF69A-82B5-49A9-B8CD-2C0770480435}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AmbientBed_AirConditioning" ID="{FB1046EB-7C02-4CFF-8A03-260BE544C182}" ShortID="876268890">
+					<PropertyList>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-35</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{D4B98AC4-34F4-45A2-B512-6A65D8304FCB}" ShortID="1014585797" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AmbientBed_AirConditioning" ID="{44C9DCE7-6713-4B5D-965C-E74F74CA8F7C}" ShortID="802218886">
+							<Language>SFX</Language>
+							<AudioFile>ProofAssets_v1\AmbientBed_AirConditioning.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AmbientBed_AirConditioning" ID="{44C9DCE7-6713-4B5D-965C-E74F74CA8F7C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Dyna_Soundbites" ID="{0426BAE2-CE48-471C-9FB2-70ABA90769A1}" ShortID="760630366">
+					<ChildrenList>
+						<SwitchContainer Name="Dyna_Soundbite1" ID="{FFE9D541-3C5F-4014-9D9E-EE08CD06EECD}" ShortID="1306458">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="AttachableMixerInput">
+									<Custom>
+										<Effect Name="Oculus Spatializer (Attached)" ID="{F7076F52-EDBC-406C-9BEE-641A577F4DB9}" ShortID="684957297" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="DialogCloseness" ID="{FD15FD21-33FB-409E-8D12-54019CA2E89C}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dyna_Soundbite1_Close_RAW" ID="{1E609FA2-73C7-40D6-84A3-49A369B39722}" ShortID="231940599">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite1_Close_RAW" ID="{E9E24952-5B1D-42FC-AED9-8F0C9A5A9800}" ShortID="403280480">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite1_Close_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite1_Close_RAW" ID="{E9E24952-5B1D-42FC-AED9-8F0C9A5A9800}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite1_Far_RAW" ID="{EE853DC3-C402-4C50-9817-75C73E7FD66E}" ShortID="838116389">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite1_Far_RAW" ID="{D96195FB-284E-4582-9916-13AB384AB7CD}" ShortID="495659582">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite1_Far_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite1_Far_RAW" ID="{D96195FB-284E-4582-9916-13AB384AB7CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite1_Neutral_RAW" ID="{7BF56C61-7D20-43AF-949F-65C362338D7B}" ShortID="161020875">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite1_Neutral_RAW" ID="{727FCE94-E3A5-4709-8C2C-FE145B23349B}" ShortID="235657">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite1_Neutral_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite1_Neutral_RAW" ID="{727FCE94-E3A5-4709-8C2C-FE145B23349B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite1_Neutral_RAW" ID="{7BF56C61-7D20-43AF-949F-65C362338D7B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite1_Close_RAW" ID="{1E609FA2-73C7-40D6-84A3-49A369B39722}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite1_Far_RAW" ID="{EE853DC3-C402-4C50-9817-75C73E7FD66E}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite1_Neutral_RAW" ID="{7BF56C61-7D20-43AF-949F-65C362338D7B}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Far" ID="{AE0ABAB7-6AEC-4F84-80A4-29249F92BD29}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite1_Far_RAW" ID="{EE853DC3-C402-4C50-9817-75C73E7FD66E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Close" ID="{6DBC13D1-FBC1-4E8D-A37A-7736D5C822AA}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite1_Close_RAW" ID="{1E609FA2-73C7-40D6-84A3-49A369B39722}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Dyna_Soundbite2" ID="{226EFBE8-11C6-40D1-A8F1-C77EE0BC490D}" ShortID="372563135">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="AttachableMixerInput">
+									<Custom>
+										<Effect Name="Oculus Spatializer (Attached)" ID="{A2424630-7348-4685-8F25-CE8FB4B2EB95}" ShortID="899716220" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="DialogCloseness" ID="{FD15FD21-33FB-409E-8D12-54019CA2E89C}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dyna_Soundbite2_Close_RAW" ID="{4A3C2C5A-4F6C-47EA-86FA-DA638DBE03B3}" ShortID="876165800">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite2_Close_RAW" ID="{6A45478D-6E01-41C8-8746-4AB06A6B6F1F}" ShortID="1052670190">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite2_Close_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite2_Close_RAW" ID="{6A45478D-6E01-41C8-8746-4AB06A6B6F1F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite2_Far_RAW" ID="{EDCED243-8B4C-427B-B2D4-CA93C82FED3E}" ShortID="1052474717">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite2_Far_RAW" ID="{51D7C12C-7F33-4A8E-88A0-AC901C3FB1F9}" ShortID="645339915">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite2_Far_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite2_Far_RAW" ID="{51D7C12C-7F33-4A8E-88A0-AC901C3FB1F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite2_Neutral_RAW" ID="{A6385C0D-41ED-4BE4-B6E0-0B70EF981EEB}" ShortID="594693584">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite2_Neutral_RAW" ID="{4C7CBD4F-9873-4FA1-A8A4-0F7D7FB8B02B}" ShortID="341635616">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite2_Neutral_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite2_Neutral_RAW" ID="{4C7CBD4F-9873-4FA1-A8A4-0F7D7FB8B02B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite2_Neutral_RAW" ID="{A6385C0D-41ED-4BE4-B6E0-0B70EF981EEB}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite2_Far_RAW" ID="{EDCED243-8B4C-427B-B2D4-CA93C82FED3E}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite2_Close_RAW" ID="{4A3C2C5A-4F6C-47EA-86FA-DA638DBE03B3}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite2_Neutral_RAW" ID="{A6385C0D-41ED-4BE4-B6E0-0B70EF981EEB}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Far" ID="{AE0ABAB7-6AEC-4F84-80A4-29249F92BD29}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite2_Far_RAW" ID="{EDCED243-8B4C-427B-B2D4-CA93C82FED3E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Close" ID="{6DBC13D1-FBC1-4E8D-A37A-7736D5C822AA}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite2_Close_RAW" ID="{4A3C2C5A-4F6C-47EA-86FA-DA638DBE03B3}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Dyna_Soundbite3" ID="{0DD24D8C-90F5-4E9C-A97E-BB5788871616}" ShortID="254072594">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="AttachableMixerInput">
+									<Custom>
+										<Effect Name="Oculus Spatializer (Attached)" ID="{A738FC2D-EAB2-4F62-8BAC-85B41F457851}" ShortID="511472868" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="DialogCloseness" ID="{FD15FD21-33FB-409E-8D12-54019CA2E89C}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dyna_Soundbite3_Close_RAW" ID="{7B1197BD-AED2-4576-B3BE-0B7C8C56669E}" ShortID="37433864">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite3_Close_RAW" ID="{C3462499-17E9-4D06-BC74-30D3A9357DF2}" ShortID="453332767">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite3_Close_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite3_Close_RAW" ID="{C3462499-17E9-4D06-BC74-30D3A9357DF2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite3_Far_RAW" ID="{1E787532-DFF1-4608-A57F-12A4A515C4EF}" ShortID="983125923">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite3_Far_RAW" ID="{07B5750F-32FF-4973-B66A-9F6B8A503E7E}" ShortID="146281465">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite3_Far_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite3_Far_RAW" ID="{07B5750F-32FF-4973-B66A-9F6B8A503E7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite3_Neutral_RAW" ID="{651B4FB2-B998-4059-9C5D-BC04A3D642DA}" ShortID="282720677">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite3_Neutral_RAW" ID="{74A4163B-D0CA-4C2B-B951-E52B01271C09}" ShortID="201706537">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite3_Neutral_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite3_Neutral_RAW" ID="{74A4163B-D0CA-4C2B-B951-E52B01271C09}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite3_Far_RAW" ID="{1E787532-DFF1-4608-A57F-12A4A515C4EF}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite3_Neutral_RAW" ID="{651B4FB2-B998-4059-9C5D-BC04A3D642DA}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite3_Close_RAW" ID="{7B1197BD-AED2-4576-B3BE-0B7C8C56669E}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite3_Neutral_RAW" ID="{651B4FB2-B998-4059-9C5D-BC04A3D642DA}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Far" ID="{AE0ABAB7-6AEC-4F84-80A4-29249F92BD29}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite3_Far_RAW" ID="{1E787532-DFF1-4608-A57F-12A4A515C4EF}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Close" ID="{6DBC13D1-FBC1-4E8D-A37A-7736D5C822AA}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite3_Close_RAW" ID="{7B1197BD-AED2-4576-B3BE-0B7C8C56669E}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Dyna_Soundbite4" ID="{D2E640EC-9D46-4C9F-A2FC-05C00AE2380F}" ShortID="996004405">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="AttachableMixerInput">
+									<Custom>
+										<Effect Name="Oculus Spatializer (Attached)" ID="{B3626B14-4BB8-464F-AFCA-9A3ED1954BD5}" ShortID="530637802" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="DialogCloseness" ID="{FD15FD21-33FB-409E-8D12-54019CA2E89C}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dyna_Soundbite4_Close_RAW" ID="{97DE1C56-926B-4C3E-8F61-196AA4A0E1B8}" ShortID="474201320">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite4_Close_RAW" ID="{10107E07-D9FD-4E75-B136-C3991B02888F}" ShortID="2362352">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite4_Close_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite4_Close_RAW" ID="{10107E07-D9FD-4E75-B136-C3991B02888F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite4_Far_RAW" ID="{B9E1CED5-F5D8-46CA-BCDE-F9CB723DB64E}" ShortID="451196237">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite4_Far_RAW" ID="{E400E1D5-DD4E-4026-9961-DF283624DAB1}" ShortID="783473712">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite4_Far_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite4_Far_RAW" ID="{E400E1D5-DD4E-4026-9961-DF283624DAB1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite4_Neutral_RAW" ID="{90FD177D-8930-4B72-8FC7-833E82D4539E}" ShortID="919999480">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite4_Neutral_RAW" ID="{FAD327B9-4001-4126-ABBF-F63CC3AB6D1E}" ShortID="1041227047">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite4_Neutral_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite4_Neutral_RAW" ID="{FAD327B9-4001-4126-ABBF-F63CC3AB6D1E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite4_Close_RAW" ID="{97DE1C56-926B-4C3E-8F61-196AA4A0E1B8}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite4_Neutral_RAW" ID="{90FD177D-8930-4B72-8FC7-833E82D4539E}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite4_Far_RAW" ID="{B9E1CED5-F5D8-46CA-BCDE-F9CB723DB64E}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite4_Neutral_RAW" ID="{90FD177D-8930-4B72-8FC7-833E82D4539E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Far" ID="{AE0ABAB7-6AEC-4F84-80A4-29249F92BD29}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite4_Far_RAW" ID="{B9E1CED5-F5D8-46CA-BCDE-F9CB723DB64E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Close" ID="{6DBC13D1-FBC1-4E8D-A37A-7736D5C822AA}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite4_Close_RAW" ID="{97DE1C56-926B-4C3E-8F61-196AA4A0E1B8}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Dyna_Soundbite5" ID="{F36F9AA9-8D22-4832-B42D-DA9AAC48C8CE}" ShortID="64209353">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="AttachableMixerInput">
+									<Custom>
+										<Effect Name="Oculus Spatializer (Attached)" ID="{6DC29B10-0047-4473-9AAE-540D8EDEE409}" ShortID="763415120" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="DialogCloseness" ID="{FD15FD21-33FB-409E-8D12-54019CA2E89C}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dyna_Soundbite5_Close_RAW" ID="{1031C8F1-C1EE-46AC-83AF-507AFFC70752}" ShortID="733913317">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite5_Close_RAW" ID="{88B4891F-C9F4-4C31-ABAA-9A38DA1215A8}" ShortID="335520792">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite5_Close_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite5_Close_RAW" ID="{88B4891F-C9F4-4C31-ABAA-9A38DA1215A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite5_Far_RAW" ID="{59ECE4E7-D4A5-49B3-A692-4E81B3BE98EE}" ShortID="46474633">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite5_Far_RAW" ID="{9B017285-A12A-4919-94D5-E257DE12A7FD}" ShortID="549603998">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite5_Far_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite5_Far_RAW" ID="{9B017285-A12A-4919-94D5-E257DE12A7FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite5_Neutral_RAW" ID="{B2B124F0-C1D0-4609-B923-17C19E6F66BA}" ShortID="480756723">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite5_Neutral_RAW" ID="{45E98986-957F-41C1-ACF3-FE7874FDDD0C}" ShortID="527146279">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite5_Neutral_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite5_Neutral_RAW" ID="{45E98986-957F-41C1-ACF3-FE7874FDDD0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite5_Far_RAW" ID="{59ECE4E7-D4A5-49B3-A692-4E81B3BE98EE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite5_Neutral_RAW" ID="{B2B124F0-C1D0-4609-B923-17C19E6F66BA}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite5_Close_RAW" ID="{1031C8F1-C1EE-46AC-83AF-507AFFC70752}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite5_Neutral_RAW" ID="{B2B124F0-C1D0-4609-B923-17C19E6F66BA}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Far" ID="{AE0ABAB7-6AEC-4F84-80A4-29249F92BD29}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite5_Far_RAW" ID="{59ECE4E7-D4A5-49B3-A692-4E81B3BE98EE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Close" ID="{6DBC13D1-FBC1-4E8D-A37A-7736D5C822AA}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite5_Close_RAW" ID="{1031C8F1-C1EE-46AC-83AF-507AFFC70752}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Dyna_Soundbite6" ID="{C33FF1FB-6C89-4558-9D02-F327F56520D5}" ShortID="977115628">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="AttachableMixerInput">
+									<Custom>
+										<Effect Name="Oculus Spatializer (Attached)" ID="{8F1FCC02-F7CF-45FD-B127-306279314FE2}" ShortID="523065433" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="DialogCloseness" ID="{FD15FD21-33FB-409E-8D12-54019CA2E89C}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dyna_Soundbite6_Close_RAW" ID="{72680155-C0E9-45C2-B415-5465F447285B}" ShortID="7250075">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite6_Close_RAW" ID="{F0E3FEAE-B5CB-4372-84AC-5432E30A96F4}" ShortID="823052794">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite6_Close_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite6_Close_RAW" ID="{F0E3FEAE-B5CB-4372-84AC-5432E30A96F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite6_Far_RAW" ID="{233871E8-2BC9-4982-BC1C-1ED962859922}" ShortID="726563552">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite6_Far_RAW" ID="{66BB2FDD-E7D3-4FE8-98B7-6B04F9482011}" ShortID="291143476">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite6_Far_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite6_Far_RAW" ID="{66BB2FDD-E7D3-4FE8-98B7-6B04F9482011}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite6_Neutral_RAW" ID="{16D44624-110E-4ACF-80A7-3288D5F25F83}" ShortID="66509579">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite6_Neutral_RAW" ID="{297938CB-5EF9-4A3A-ADCD-E5EB59215A9A}" ShortID="805698475">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite6_Neutral_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite6_Neutral_RAW" ID="{297938CB-5EF9-4A3A-ADCD-E5EB59215A9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite6_Neutral_RAW" ID="{16D44624-110E-4ACF-80A7-3288D5F25F83}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite6_Close_RAW" ID="{72680155-C0E9-45C2-B415-5465F447285B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite6_Far_RAW" ID="{233871E8-2BC9-4982-BC1C-1ED962859922}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite6_Neutral_RAW" ID="{16D44624-110E-4ACF-80A7-3288D5F25F83}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Far" ID="{AE0ABAB7-6AEC-4F84-80A4-29249F92BD29}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite6_Far_RAW" ID="{233871E8-2BC9-4982-BC1C-1ED962859922}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Close" ID="{6DBC13D1-FBC1-4E8D-A37A-7736D5C822AA}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite6_Close_RAW" ID="{72680155-C0E9-45C2-B415-5465F447285B}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Dyna_Soundbite7" ID="{71C357B6-C55D-42D8-8065-7591F9E44D7F}" ShortID="334748055">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="AttachableMixerInput">
+									<Custom>
+										<Effect Name="Oculus Spatializer (Attached)" ID="{84B619A6-7828-4231-BE81-8AAC867A44C9}" ShortID="31717110" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default" ID="{25A924D4-90E1-4839-B672-06A771A1D7D1}" WorkUnitID="{A7C5BF5C-B20A-4955-A15B-9F2506C13996}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="DialogCloseness" ID="{FD15FD21-33FB-409E-8D12-54019CA2E89C}" WorkUnitID="{D80EC305-5F96-44BF-AAC4-DF733BC9C8AA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dyna_Soundbite7_Close_RAW" ID="{E3C8936D-EEF2-42B4-A0FD-43A5B3B864D3}" ShortID="96824438">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite7_Close_RAW" ID="{16B742F6-57DB-49C1-A33D-7182ABEC5151}" ShortID="325011857">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite7_Close_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite7_Close_RAW" ID="{16B742F6-57DB-49C1-A33D-7182ABEC5151}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite7_Far_RAW" ID="{B65E3BA5-89D9-4B14-9FE3-693E28355C36}" ShortID="443594020">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite7_Far_RAW" ID="{A19553C6-54E6-447B-AEAF-D36BB892FD45}" ShortID="554731724">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite7_Far_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite7_Far_RAW" ID="{A19553C6-54E6-447B-AEAF-D36BB892FD45}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite7_Neutral_RAW" ID="{764B8E5B-DBE2-4400-B078-7FDE500D715F}" ShortID="885360008">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite7_Neutral_RAW" ID="{30BDBE85-ADC3-4E40-A6AF-B8A611D4B3FA}" ShortID="429410613">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite7_Neutral_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite7_Neutral_RAW" ID="{30BDBE85-ADC3-4E40-A6AF-B8A611D4B3FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite7_Neutral_RAW" ID="{764B8E5B-DBE2-4400-B078-7FDE500D715F}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite7_Close_RAW" ID="{E3C8936D-EEF2-42B4-A0FD-43A5B3B864D3}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dyna_Soundbite7_Far_RAW" ID="{B65E3BA5-89D9-4B14-9FE3-693E28355C36}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Neutral" ID="{89472984-4ABD-432E-91F9-A1E8FE5DECEB}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite7_Neutral_RAW" ID="{764B8E5B-DBE2-4400-B078-7FDE500D715F}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Far" ID="{AE0ABAB7-6AEC-4F84-80A4-29249F92BD29}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite7_Far_RAW" ID="{B65E3BA5-89D9-4B14-9FE3-693E28355C36}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Close" ID="{6DBC13D1-FBC1-4E8D-A37A-7736D5C822AA}"/>
+										<ItemList>
+											<ItemRef Name="Dyna_Soundbite7_Close_RAW" ID="{E3C8936D-EEF2-42B4-A0FD-43A5B3B864D3}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<BlendContainer Name="Dyna_Soundbite1_Blend" ID="{6159D283-53D8-47E9-A35A-674E7F13D89E}" ShortID="285054311">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dyna_Soundbite1_Neutral_RAW" ID="{01BDBC5D-D7AE-41DB-BC3A-9776E01EEB56}" ShortID="574333689">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite1_Neutral_RAW" ID="{73E65656-C8A9-43FE-8BB8-6D68AB798912}" ShortID="269832710">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite1_Neutral_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite1_Neutral_RAW" ID="{73E65656-C8A9-43FE-8BB8-6D68AB798912}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite1_Close_RAW" ID="{FFE37ECB-F202-4C15-9C5E-287B41118543}" ShortID="801598685">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite1_Close_RAW" ID="{D3617E50-BAF4-444C-8198-8BD5FB46CF32}" ShortID="334882876">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite1_Close_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite1_Close_RAW" ID="{D3617E50-BAF4-444C-8198-8BD5FB46CF32}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dyna_Soundbite1_Far_RAW" ID="{37D0C476-AC66-45A5-9F15-F0A7DC88B5AF}" ShortID="409285304">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{179B15E6-D4D8-4E68-B829-8C470F1FEA1F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3504393A-24AC-4A2B-A748-017AB0370905}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dyna_Soundbite1_Far_RAW" ID="{7B2802B8-E021-43A2-92DC-8B51C2474510}" ShortID="476130103">
+											<Language>SFX</Language>
+											<AudioFile>Dyna_Soundbites\Dyna_Soundbite1_Far_RAW.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dyna_Soundbite1_Far_RAW" ID="{7B2802B8-E021-43A2-92DC-8B51C2474510}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

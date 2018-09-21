@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2765543F-3348-4F76-B222-FF36408FA456}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{2765543F-3348-4F76-B222-FF36408FA456}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Master" ID="{4E618250-A526-4CE5-889B-6667604C4487}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Dyna_Soundbite1" ID="{40469CEF-49CD-461C-AAB2-7D62EE30688A}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_AmbientBed_FactoryHum" ID="{34C0E2C2-A49B-4677-8E8D-0A7FE8712DA1}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Dyna_Soundbite6" ID="{79811099-0E84-4751-954A-215E482CB045}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_WalkingStick" ID="{14CC6901-A874-477C-8A16-D62D7F045D6A}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Object_02" ID="{9607B2F4-945D-47C2-AAAE-3FDE41F7EC68}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_AmbientBed_AirConditioning" ID="{02F1D9C4-473A-484C-A96D-FA01DF8D66A1}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Dyna_Soundbite3" ID="{F3499BC4-849F-49A6-A602-F8E3881BBAD3}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Dyna_Soundbite5" ID="{4229F5D7-1D52-4B85-B28A-D6E855E156E9}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Dyna_Soundbite7" ID="{A56175C3-4165-4CDA-A5EC-2CB02C3F4BB0}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Object_04" ID="{43E7C760-EEEA-4D67-8934-703C80B80D81}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Object_01" ID="{CAFB6F91-696F-4DCB-859F-8A331DEDE184}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Object_03" ID="{0A00DCE6-9C54-4E35-8DF3-1307EEFAFA72}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Dyna_Soundbite4" ID="{117AF983-910B-4EE2-B372-2EC7BF987FBC}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Dyna_Soundbite2" ID="{37827E67-0943-4F5F-81DF-47FE70A105B6}" WorkUnitID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

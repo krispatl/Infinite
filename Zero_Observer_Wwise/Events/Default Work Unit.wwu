@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{60A24AAF-30F8-41BB-A6BA-F65CA0CB2C1B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_WalkingStick" ID="{14CC6901-A874-477C-8A16-D62D7F045D6A}">
+					<ChildrenList>
+						<Action Name="" ID="{8AF60A68-2C63-4FC3-B4A1-60C5B26AAAC4}" ShortID="172033207">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WalkingStick" ID="{E3C3BF54-53BD-4682-9320-2A461D4DB80F}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Object_01" ID="{CAFB6F91-696F-4DCB-859F-8A331DEDE184}">
+					<ChildrenList>
+						<Action Name="" ID="{C52845AC-7576-4A85-9830-20D8118B476B}" ShortID="346434987">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Object_01" ID="{4631861F-1AD6-48C0-8AC7-DDBC13B03E07}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Object_02" ID="{9607B2F4-945D-47C2-AAAE-3FDE41F7EC68}">
+					<ChildrenList>
+						<Action Name="" ID="{CD10F93A-AF1C-404F-8AE8-1D35CA96E2A6}" ShortID="339145223">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Object_02" ID="{A1E41340-07B4-4C76-80A4-A142CE24D1E3}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Object_03" ID="{0A00DCE6-9C54-4E35-8DF3-1307EEFAFA72}">
+					<ChildrenList>
+						<Action Name="" ID="{4E7FF950-2D1D-43B9-A3B8-855C59A6BB1A}" ShortID="1007600651">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Object_03" ID="{939D2ABD-67C3-48D9-AB0F-3889AFF6E6C4}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Object_04" ID="{43E7C760-EEEA-4D67-8934-703C80B80D81}">
+					<ChildrenList>
+						<Action Name="" ID="{32722E0C-8ED8-4EDF-8967-6B62BF7CE660}" ShortID="265364956">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Object_04" ID="{0BCDC51E-CF91-41C3-81C8-774E3E41D852}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AmbientBed_FactoryHum" ID="{34C0E2C2-A49B-4677-8E8D-0A7FE8712DA1}">
+					<ChildrenList>
+						<Action Name="" ID="{378F565B-F768-45FA-A76B-C09BFE04D4FD}" ShortID="109716905">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbientBed_FactoryHum" ID="{E311476A-2E3B-4036-94A7-FC88E4A2749E}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AmbientBed_AirConditioning" ID="{02F1D9C4-473A-484C-A96D-FA01DF8D66A1}">
+					<ChildrenList>
+						<Action Name="" ID="{5244EF33-2929-4D03-B217-0DDE8BA8573B}" ShortID="829784542">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbientBed_AirConditioning" ID="{FB1046EB-7C02-4CFF-8A03-260BE544C182}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dyna_Soundbite1" ID="{40469CEF-49CD-461C-AAB2-7D62EE30688A}">
+					<ChildrenList>
+						<Action Name="" ID="{203E007D-6185-4D4E-8CED-245BE7774ABD}" ShortID="499280769">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dyna_Soundbite1" ID="{FFE9D541-3C5F-4014-9D9E-EE08CD06EECD}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dyna_Soundbite2" ID="{37827E67-0943-4F5F-81DF-47FE70A105B6}">
+					<ChildrenList>
+						<Action Name="" ID="{D593304A-EEC8-4F97-A00F-D2E090F3C78D}" ShortID="204400696">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dyna_Soundbite2" ID="{226EFBE8-11C6-40D1-A8F1-C77EE0BC490D}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dyna_Soundbite3" ID="{F3499BC4-849F-49A6-A602-F8E3881BBAD3}">
+					<ChildrenList>
+						<Action Name="" ID="{04A6C93D-2D4A-4715-BC83-CD161D41FA56}" ShortID="627077032">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dyna_Soundbite3" ID="{0DD24D8C-90F5-4E9C-A97E-BB5788871616}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dyna_Soundbite4" ID="{117AF983-910B-4EE2-B372-2EC7BF987FBC}">
+					<ChildrenList>
+						<Action Name="" ID="{64AD2B82-36CD-44A8-B5A7-C658EA4E3534}" ShortID="1050535413">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dyna_Soundbite4" ID="{D2E640EC-9D46-4C9F-A2FC-05C00AE2380F}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dyna_Soundbite5" ID="{4229F5D7-1D52-4B85-B28A-D6E855E156E9}">
+					<ChildrenList>
+						<Action Name="" ID="{BFF9C5BF-E0DC-4503-A677-7C9B25C12995}" ShortID="419966199">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dyna_Soundbite5" ID="{F36F9AA9-8D22-4832-B42D-DA9AAC48C8CE}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dyna_Soundbite6" ID="{79811099-0E84-4751-954A-215E482CB045}">
+					<ChildrenList>
+						<Action Name="" ID="{96BB3315-65FE-42A3-9279-0703A2E05FDE}" ShortID="253226663">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dyna_Soundbite6" ID="{C33FF1FB-6C89-4558-9D02-F327F56520D5}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dyna_Soundbite7" ID="{A56175C3-4165-4CDA-A5EC-2CB02C3F4BB0}">
+					<ChildrenList>
+						<Action Name="" ID="{ACEAC807-E14E-4083-AA3B-3056BFA99F2F}" ShortID="214467255">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dyna_Soundbite7" ID="{71C357B6-C55D-42D8-8065-7591F9E44D7F}" WorkUnitID="{ABC9F2AF-5EB3-45EE-BF6F-92D927E380B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

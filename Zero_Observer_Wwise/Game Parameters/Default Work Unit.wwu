@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C63BA0DC-0E4A-4D40-A305-CF5199AFF18C}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{C63BA0DC-0E4A-4D40-A305-CF5199AFF18C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="StickIntensity" ID="{65C1EF6E-5EBF-4756-84F0-CDE87D6BBC32}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="70"/>
+						<Property Name="Max" Type="Real64" Value="80"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

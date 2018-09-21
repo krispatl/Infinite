@@ -1,0 +1,64 @@
+Event	ID	Name			Wwise Object Path	Notes
+	574589902	Play_AmbientBed_FactoryHum			\Default Work Unit\Play_AmbientBed_FactoryHum	
+	1073863832	Play_Object_02			\Default Work Unit\Play_Object_02	
+	1073863833	Play_Object_03			\Default Work Unit\Play_Object_03	
+	1073863835	Play_Object_01			\Default Work Unit\Play_Object_01	
+	1073863838	Play_Object_04			\Default Work Unit\Play_Object_04	
+	3292131768	Play_Dyna_Soundbite6			\Default Work Unit\Play_Dyna_Soundbite6	
+	3292131769	Play_Dyna_Soundbite7			\Default Work Unit\Play_Dyna_Soundbite7	
+	3292131770	Play_Dyna_Soundbite4			\Default Work Unit\Play_Dyna_Soundbite4	
+	3292131771	Play_Dyna_Soundbite5			\Default Work Unit\Play_Dyna_Soundbite5	
+	3292131772	Play_Dyna_Soundbite2			\Default Work Unit\Play_Dyna_Soundbite2	
+	3292131773	Play_Dyna_Soundbite3			\Default Work Unit\Play_Dyna_Soundbite3	
+	3292131775	Play_Dyna_Soundbite1			\Default Work Unit\Play_Dyna_Soundbite1	
+	3325308199	Play_AmbientBed_AirConditioning			\Default Work Unit\Play_AmbientBed_AirConditioning	
+	4057298857	Play_WalkingStick			\Default Work Unit\Play_WalkingStick	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3457104738	DialogCloseness			\Default Work Unit\DialogCloseness	
+
+Switch	ID	Name	Switch Group			Notes
+	670611050	Neutral	DialogCloseness			
+	1183803292	Far	DialogCloseness			
+	1451272583	Close	DialogCloseness			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1231719034	StickIntensity			\Default Work Unit\StickIntensity	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	235657	Dyna_Soundbite1_Neutral_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite1_Neutral_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite1\Dyna_Soundbite1_Neutral_RAW		864632
+	2362352	Dyna_Soundbite4_Close_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite4_Close_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite4\Dyna_Soundbite4_Close_RAW		1846500
+	93396510	WOODEN SWORD HIT-11_M	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\WOODEN SWORD HIT-11.M_ACD97673.wem		\Actor-Mixer Hierarchy\Default Work Unit\WalkingStick\WOODEN SWORD HIT-11_M		19336
+	146281465	Dyna_Soundbite3_Far_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite3_Far_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite3\Dyna_Soundbite3_Far_RAW		1160194
+	201706537	Dyna_Soundbite3_Neutral_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite3_Neutral_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite3\Dyna_Soundbite3_Neutral_RAW		1400268
+	291143476	Dyna_Soundbite6_Far_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite6_Far_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite6\Dyna_Soundbite6_Far_RAW		3990400
+	303818130	AmbientBed_FactoryHum	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\ProofAssets_v1\AmbientBed_FactoryHum_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientBed_FactoryHum		9474896
+	325011857	Dyna_Soundbite7_Close_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite7_Close_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite7\Dyna_Soundbite7_Close_RAW		934896
+	335520792	Dyna_Soundbite5_Close_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite5_Close_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite5\Dyna_Soundbite5_Close_RAW		395754
+	341635616	Dyna_Soundbite2_Neutral_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite2_Neutral_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite2\Dyna_Soundbite2_Neutral_RAW		376914
+	403280480	Dyna_Soundbite1_Close_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite1_Close_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite1\Dyna_Soundbite1_Close_RAW		938640
+	429410613	Dyna_Soundbite7_Neutral_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite7_Neutral_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite7\Dyna_Soundbite7_Neutral_RAW		921520
+	449549849	Object1_LoopLayer3	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\ProofAssets_v1\Object1_LoopLayer3_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object_01\Object1_LoopLayer3		5243906
+	453332767	Dyna_Soundbite3_Close_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite3_Close_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite3\Dyna_Soundbite3_Close_RAW		1470740
+	495659582	Dyna_Soundbite1_Far_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite1_Far_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite1\Dyna_Soundbite1_Far_RAW		742426
+	527146279	Dyna_Soundbite5_Neutral_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite5_Neutral_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite5\Dyna_Soundbite5_Neutral_RAW		376914
+	549603998	Dyna_Soundbite5_Far_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite5_Far_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite5\Dyna_Soundbite5_Far_RAW		425900
+	554731724	Dyna_Soundbite7_Far_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite7_Far_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite7\Dyna_Soundbite7_Far_RAW		917448
+	633188166	WalkingStick_Hit_OtherLayer	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\WalkingStick_Hit_OtherLayer_C652C925.wem		\Actor-Mixer Hierarchy\Default Work Unit\WalkingStick\WalkingStick_Hit_OtherLayer		16844
+	645339915	Dyna_Soundbite2_Far_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite2_Far_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite2\Dyna_Soundbite2_Far_RAW		350976
+	681190026	Object4_MetalBangingLoop	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\ProofAssets_v1\Object4_MetalBangingLoop_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object_04\Object4_MetalBangingLoop		1637056
+	783473712	Dyna_Soundbite4_Far_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite4_Far_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite4\Dyna_Soundbite4_Far_RAW		1701600
+	802218886	AmbientBed_AirConditioning	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\ProofAssets_v1\AmbientBed_AirConditioning_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientBed_AirConditioning		7847368
+	805698475	Dyna_Soundbite6_Neutral_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite6_Neutral_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite6\Dyna_Soundbite6_Neutral_RAW		3713180
+	818496746	Object1_LoopLayer1	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\ProofAssets_v1\Object1_LoopLayer1_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object_01\Object1_LoopLayer1		5002762
+	823052794	Dyna_Soundbite6_Close_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite6_Close_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite6\Dyna_Soundbite6_Close_RAW		3926912
+	841124009	WalkingStick_Hit_Cane	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\WalkingStick_Hit_Cane_C652C925.wem		\Actor-Mixer Hierarchy\Default Work Unit\WalkingStick\WalkingStick_Hit_Cane		8168
+	881702233	Object1_LoopLayer2	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\ProofAssets_v1\Object1_LoopLayer2_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object_01\Object1_LoopLayer2		2829454
+	935345086	Object3_FactoryTireLoop	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\ProofAssets_v1\Object3_FactoryTireLoop_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object_03\Object3_FactoryTireLoop		8794554
+	938767864	Object2_FactorySteamLoop	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\ProofAssets_v1\Object2_FactorySteamLoop_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object_02\Object2_FactorySteamLoop		5077330
+	1041227047	Dyna_Soundbite4_Neutral_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite4_Neutral_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite4\Dyna_Soundbite4_Neutral_RAW		1859582
+	1052670190	Dyna_Soundbite2_Close_RAW	D:\Repositories\Zero_Observer\Zero_Observer_Wwise\.cache\Windows\SFX\Dyna_Soundbites\Dyna_Soundbite2_Close_RAW_C8428613.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dyna_Soundbites\Dyna_Soundbite2\Dyna_Soundbite2_Close_RAW		344850
+

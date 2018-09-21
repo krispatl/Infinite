@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3504393A-24AC-4A2B-A748-017AB0370905}" SchemaVersion="85">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{3504393A-24AC-4A2B-A748-017AB0370905}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{707F3B00-14BA-434E-B120-DC5F9082A266}" WorkUnitID="{91A66877-B98A-4EB2-A561-72C6322A13DD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Spatialized_Direct" ID="{F4DE4B05-61C0-4505-A478-1F97AB76F241}">
+							<ReferenceList>
+								<Reference Name="AudioDevice">
+									<ObjectRef Name="System" ID="{707F3B00-14BA-434E-B120-DC5F9082A266}" WorkUnitID="{91A66877-B98A-4EB2-A561-72C6322A13DD}"/>
+								</Reference>
+								<Reference Name="Mixer">
+									<Custom>
+										<Effect Name="Oculus Spatializer (Custom)" ID="{21BD04AC-82E5-497F-B806-A167A0C87719}" ShortID="596469062" PluginName="Oculus Spatializer" CompanyID="266" PluginID="146" PluginType="6">
+											<PropertyList>
+												<Property Name="Enable Reflections" Type="bool" Value="True"/>
+												<Property Name="Reverb On" Type="bool" Value="True"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<AuxBus Name="Master_Aux" ID="{B7082875-94D1-4339-8317-9C18DCAA5FAC}">
+							<ChildrenList>
+								<AuxBus Name="Early_Reflections" ID="{C0F235D2-DC22-4201-BADD-E1E72D8C123F}">
+									<PropertyList>
+										<Property Name="EnablePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Reflect (Custom)" ID="{3EF02E5C-4597-4218-A2E9-2003D5D23B68}" ShortID="376341138" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">													<PluginData>
+	<ReflectData>
+		<CurveList Version="4">
+			<CurveInfo Name="Distance Attenuation (Emitter vs. Listener)">
+				<Curve Name="" ID="{4E2690EE-A59A-4F4A-8678-EB2E6F5F6771}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Attenuation (Image Source vs. Listener)">
+				<Curve Name="" ID="{2E2C662B-86F7-4699-9CAC-F040A2C65C5D}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>-200</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance High-pass Filter (Image Source vs. Listener)">
+				<Curve Name="" ID="{76A2450E-53A6-49FE-BC4F-E98FE24D854B}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Low-pass Filter (Image Source vs. Listener)">
+				<Curve Name="" ID="{04AF1BB3-E62C-49AC-8F54-B0C90B54F8F1}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Spread (Image Source vs. Listener)">
+				<Curve Name="" ID="{75A7A6B6-2E4E-4CBD-A7E5-94851A03A097}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>100</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ReflectData>
+</PluginData>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
